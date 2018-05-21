@@ -37,11 +37,10 @@ $usuario->loadById(2);
 $usuario->update("professor", "4567");
  */
 //Eliminar um registro
-$usuario = new Usuario();
+/*$usuario = new Usuario();
 $usuario->loadById(3);
 $usuario->delete();
-
-echo $usuario;
+echo $usuario;*/
 
 
 

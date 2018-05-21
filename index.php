@@ -24,16 +24,13 @@ require_once ("config.php");
 $aluno = new Usuario("aluno","@aluno");
 
 $aluno->insert();
-
 echo $aluno;
 */
 
 //Alterar um cadastro
 /*
- $usuario = new Usuario();
-
+$usuario = new Usuario();
 $usuario->loadById(2);
-
 $usuario->update("professor", "4567");
  */
 //Eliminar um registro

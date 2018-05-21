@@ -140,7 +140,7 @@ class Usuario
             ':ID'=>$this->getIdusuario()
         ));
     }
-
+    /*
     public function delete(){
         $sql = new Sql();
         $sql->query("DELETE FROM tb_usuarios WHERE idusuario = :ID", array(
@@ -152,6 +152,7 @@ class Usuario
         $this->setDessenha("");
         $this->setDtcadastro(new DateTime());
     }
+    */
     public function __toString()
     {
         return json_encode(array(

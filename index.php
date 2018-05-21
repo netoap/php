@@ -28,9 +28,21 @@ $aluno->insert();
 echo $aluno;
 */
 
-$usuario = new Usuario();
+//Alterar um cadastro
+/*
+ $usuario = new Usuario();
 
 $usuario->loadById(2);
 
 $usuario->update("professor", "4567");
+ */
+//Eliminar um registro
+$usuario = new Usuario();
+$usuario->loadById(3);
+$usuario->delete();
+
+echo $usuario;
+
+
+
 
